@@ -72,11 +72,10 @@
             color: #000;
             text-align: center;
         }
-        /* H1 is now the keyword question; keep it modest so the big "No." still dominates visually */
-        h1 {
-            font-family: 'Roboto Condensed', Arial, sans-serif;
-            font-size: 2rem;
-            margin: 0 0 10px 0;
+        
+          h1 {
+            position: absolute;
+            left: -9999px; /* Hides visually but still read by search engines/screen readers */
         }
         /* Big chunky "No." */
         .answer {
